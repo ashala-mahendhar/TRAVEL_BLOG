@@ -1,0 +1,127 @@
+body{
+    height:700px;
+    background-image: linear-gradient(95deg,rgb(255,17,120),rgb(152,33,195));
+
+}
+#container{
+     background-image: linear-gradient(90deg,rgb(90, 14, 14),rgb(15, 15, 82)); 
+    width:75%;
+    height:560px;
+    position:absolute;
+    left:15%;
+    top:11%;
+    box-shadow: 0px 0px 10px black;
+}
+#container1{
+    width:70%;
+    height:440px;
+    background-color: black;
+    position:absolute;
+    top:10%;
+    left:17%;
+    box-shadow: 0px 0px 10px black;
+}
+h1{
+    color:white;
+    letter-spacing: 5px;
+    position:relative;
+    bottom:20px;
+    left:45%;
+    /* text-decoration-line: underline; */
+
+}
+strong{
+    color:white;
+    letter-spacing: 5px; 
+    position:relative;
+    bottom:20px;
+    left:27%;
+
+}
+#Email{
+    border-radius: 10px;
+    height:60px;
+    width:350px;
+    position:absolute;
+    left:25%;
+    top:24%;
+    background-color: transparent;
+    outline: 0px;
+    color:white;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+#Email:hover{
+    box-shadow: 0px 0px 10px white;
+}
+#passwor{
+    width:100%;
+    border-radius: 15px;
+    height:60px;
+    outline:none;
+    color:white;
+    background-color: transparent;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#passwor:hover{
+    
+    box-shadow: 0px 0px 10px white;
+}
+
+#login{
+    position: absolute;
+    top:75%;
+    left:33%;
+    width:250px;
+    height:70px;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-width:0px 0px 10px 0px;
+    border-radius:50px;
+    outline:0px;
+    border-color:burlywood;
+    border-radius:50%;
+    background-color:burlywood;
+    box-shadow: 3px 3px 10px rgba(118, 118, 223, 0.708); 
+
+}
+
+#container3{
+    position:absolute;
+    left:25%;
+    top:45%;
+    height:60px;
+    width:360px;
+    
+}
+#img{
+    width:50px; 
+    height:63px;
+    float:right;
+    position:absolute;
+    left:317px;
+    top:4%;
+    border-radius: 10px; 
+}
+#result{
+    color:white;
+    position: absolute;
+    top:98%;
+    left:1%;
+    text-shadow: 0px 0px 10px red;
+}
+a{
+    position: absolute;
+    top:58%;
+    left:30%;
+    font-size: 22px;
+    color:hotpink;
+    text-decoration-line: none;
+}
+a:hover{
+    color:white;
+}

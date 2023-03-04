@@ -1,0 +1,127 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+#header{
+    width:100%;
+    height:500px;
+    overflow:hidden;
+    box-shadow: 0px 5px 10px black;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+#headervid{
+    width:100%;
+    opacity: 1;
+    z-index: 0;
+    position:absolute;
+    top:0px;
+}
+#headerheading{
+    z-index:1;
+    position:absolute;
+    font-size: 40px;
+    letter-spacing: 15px;  
+    color: white;
+    text-shadow: 0px 0px 8px black;
+}
+#iconsofsocial{
+    position: absolute;
+    z-index: 1;
+    font-size: 40px;
+    text-shadow: 0px 0px 10px black;
+    right:30px;
+    bottom:10px;
+    font-size: 60px;
+    height:100px;
+}
+i{
+    padding-left:15px;
+    color:rgb(236, 11, 11);
+    
+}
+i:hover{
+   color:rgb(24, 22, 22);
+}
+#webbody{
+    height:500px;
+    width:100%;
+    background-image: linear-gradient(rgba(244, 10, 49, 0.402),rgba(128, 0, 128, 0.607),rgba(0, 0, 0, 0.283));
+
+}
+ 
+#address{
+    margin-top: 100px;
+    margin-left: 40px;
+    width:44%;
+    height:350px;
+    float:left;
+    background-color: pink;
+    box-shadow: 0px 0px 10px plum;
+    border-radius: 10px;
+}
+
+#maps{
+    
+    margin-top: 100px;
+    margin-right: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:44%;
+    height:350px;
+    background-color: pink;
+    box-shadow: 0px 0px 10px plum;
+    border-radius: 10px;
+    float:right;
+    overflow: hidden;
+    
+}
+iframe{
+    width:100%;
+    height:320px;
+}
+iframe:hover{
+    width:120%;
+    height:350px
+}
+#addheading{
+    text-align: center;
+    color:purple;
+    padding-top: 20px;
+    font-weight:bold;
+}
+#addpara{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+    text-transform: capitalize;
+    padding-left: 10px;
+    line-height: 50px;
+    text-align: center;
+    
+}
+#footer{
+    width:100%;
+    height:100px;
+    background-color:dimgrey;
+}
+#iconsofsocialfooter{
+    width:250px;
+    font-size: 40px;
+    height: 90px;
+    padding-top: 60px;
+    float:right;
+    text-shadow: 0px 0px 10px black;
+    
+}
+#cpymessage{
+    float:left;
+    color:white;
+    padding-top: 20px;
+    font-size: 30px;
+}

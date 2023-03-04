@@ -1,0 +1,253 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+#header{
+    width:100%;
+    height:500px;
+    background-image:url('../ASSESTS/IMAGES/pngwing.com\ \(2\).png'),url('../ASSESTS/IMAGES/pngwing.com\ \(1\).png'),url('../ASSESTS/IMAGES/jason-hogan-YyFwUKzv5FM-unsplash\ \(1\).jpg');
+    background-size:55% 450px,55% 450px,100% 500px;
+    background-repeat: no-repeat,no-repeat,no-repeat;
+    background-position: left bottom,right bottom,0px 0px;
+    box-shadow: 5px 8px 8px black;
+    transition: background-position 2s,color 2s,font-size 2s,text-shadow 2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: transparent;
+    font-size: 0px;
+    letter-spacing: 15px;
+}
+
+#header:hover{
+    background-position:-200px 50px,800px 50px,0px 0px;
+    color:crimson;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow:8px 8px 3px black,-8px -8px 3px rgb(110, 42, 165),5px 5px 2px green;
+}
+
+#navbar{
+    position: sticky;
+    top:0px;
+    width:100%;
+    height:90px;
+    background-image:linear-gradient(rgba(240, 252, 3, 0.751),gray);
+    box-shadow: 0px 0px 10px purple;
+    z-index: 5;
+}
+#mainlist{
+    display:flex;
+    list-style-type: none;
+}
+.li{
+    border:4px groove rgba(237, 9, 9, 0.539);
+    font-size: 30px;
+    font-weight: bold;
+    padding:20px;
+    height:45px;
+    text-align: center;
+    width:90px;
+  
+
+}
+a{
+    text-decoration: none;
+    color:white
+}
+.li:hover a{
+    color:black;
+}
+.li:hover{
+    background-color: darksalmon;
+}
+#sublist{
+    list-style-type: none;
+    display: none;
+}
+#sublistplace{
+    width:120px;
+    color:white;
+    text-align: center;
+    position: relative;
+    left:40px;
+   
+}
+#sublistplace:hover{
+    color:black;
+}
+.sli{
+    color:white;
+    background-color:brown;
+    box-shadow: 0px 0px 6px black;
+    width:100px;
+    position:relative;
+    top:25px;
+    left:10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+#sublistplace:hover #sublist{
+    display:block;
+}
+.sli:hover{
+    background-image: linear-gradient(white,black);
+    color:cyan;
+}
+#info{
+    position:relative;
+    left:60px;
+}
+#logout{
+    position:relative;
+    left:80px;
+}
+#div2{
+    width:100%;
+    height:800px;
+    background-image:linear-gradient(rgba(250, 165, 8, 0.452),rgba(255, 255, 255, 0.607),rgba(255, 255, 255, 0.705),rgba(0, 0, 0, 0.404));
+    float:left;
+    position:relative;
+    z-index: 2;
+}
+
+#left{
+    float: left;
+    width:200px;
+    border-radius: 25px;
+    position: absolute;
+    top:30%;
+    box-shadow: 0px 0px 10px 3px cornflowerblue;
+    transition:border-radius 3s,width 3s,border-color 2s,border-width 3s;
+  
+}
+#left:hover{
+    border-radius:100%;
+    width:45%;
+    border-color: rgba(51, 53, 189, 0.648);
+    border-style: double;
+    border-width: 10px;
+}
+#rightheading{
+    position:absolute;
+    right:20%;
+    letter-spacing: 3px;
+    top:4%;
+    letter-spacing: 8px;
+    text-shadow: 1px 1px 8px white;
+
+    
+}
+#rightpara{
+    position:absolute;
+    right:1%;
+    top:20%;
+    width:50%;
+    text-align: justify;
+    text-transform: capitalize;
+    right:2%;
+    font-weight: bolder;
+    text-shadow: 0px 0px 0px rgb(248, 5, 5);
+    text-indent: 180px;
+    font-size: 20px;
+}
+#div3{
+    width:100%;
+    height:900px;
+    position: relative;
+    float:left;
+    background-image: linear-gradient(rgba(116, 36, 97, 0.454),rgba(0, 0, 0, 0.4),rgba(223, 223, 213, 0.413),rgba(128, 128, 128, 0.345));
+    z-index: 1;
+}
+#leftpara{
+    position:absolute;
+    right:55%;
+    text-align: justify;
+    left:2%;
+    top:10%;
+    text-indent: 40px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 32px;
+}
+#leftheading{
+    padding-left:18% ;
+    padding-top: 2%;
+    letter-spacing: 4px;
+    font-size: 20px;
+    transition: font-size 3s,font-family 1s;
+}
+#leftheading:hover{
+    font-size:40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration-line: underline;
+    text-decoration-color:darkkhaki;
+    color:brown;
+}
+#rightvideo{
+    position:absolute;
+    left:60%;
+    border-radius: 30px;
+    width:200px;
+    float: left;
+    top:25%;
+    transition:rotate 1s,width 1s;
+    box-shadow: 0px 0px 10px 5px teal;
+}
+#rightvideo:hover{
+    rotate: 360deg;
+    width:450px
+}
+#div5{
+    width:100%;
+    height:550px;
+    background-image: linear-gradient(rgba(106, 20, 34, 0.486),rgba(255, 255, 0, 0.267),rgba(0, 0, 0, 0.212),rgba(0, 255, 255, 0.217));
+    float:left;
+}
+#v4{
+    width:90px;
+    border-radius: 40px;
+    float:right;
+    position:relative;
+    right:5%;
+    top:18%;
+}
+#v4:hover{
+    width:500px;
+    border: 8px double rgb(255, 145, 0);
+}
+#para4{
+    width:40%;
+    text-align: justify;
+    position:relative;
+    top:8%;
+    text-indent: 40px;
+    left:3%;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    line-height:30px;
+    font-weight: bold;
+    text-shadow: 0px 0px 9px blue;
+
+}
+#aus{
+    letter-spacing: 3px;
+    color:rgb(255, 0, 106);
+    position: relative;
+    left:20%;
+    top:3%;
+    text-decoration-line:underline;
+    text-decoration-style: wavy;
+    text-decoration-color: rgb(11, 11, 11);
+    
+}
+#webbody{
+    float: left;
+    width:100%;
+    height:3800px;
+    background-image: linear-gradient(rgba(255, 192, 203, 0.5),rgba(128, 0, 128, 0.201),rgba(0, 0, 0, 0.201));
+
+}
